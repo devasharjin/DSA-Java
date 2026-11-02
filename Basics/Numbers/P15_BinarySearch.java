@@ -14,7 +14,7 @@ void main (){
     if(target>a[mid]){
       low = mid + 1;
     }else
-      high = mid + 1;
+      high = mid - 1;
   }
   IO.println("Element not Found");
 }
