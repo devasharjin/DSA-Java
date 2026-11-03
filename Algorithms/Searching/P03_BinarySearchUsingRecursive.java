@@ -1,5 +1,5 @@
 
-class P16_BinarySearchUsingRecursive
+class P03_BinarySearchUsingRecursive
 {
   public static int binarySearch(int a[] , int target , int low, int high){
     int mid = (low + high)/2;
